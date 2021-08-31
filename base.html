@@ -1,0 +1,43 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<div id="INZONE">
+		<div id = "inmess"> Криптограмма</div>
+		<FORM NAME="Analysis">
+			<textarea NAME="InputText" ID="InputText" onBlur="this.value=this.value.toLowerCase()" 
+			> абвавв </textarea> 
+			<!-- Кнопки готовности и сброса Здесь должен быть ваш текст -->
+			<INPUT TYPE="button" VALUE="Готово" onClick="getAnalysis();">
+			
+		</FORM>
+	
+		<div id ="samplemess"> Эталонное распределение </div>
+		<FORM NAME="Sample">
+			<textarea NAME="SampleText" ID="SampleText" onBlur="this.value=this.value.toLowerCase()" > здесь должен быть ваш шаблон </textarea>
+			<!-- Кнопк готовности -->
+			<INPUT TYPE="button" VALUE="Готово" onClick="getAnalysisGen();">		
+		</FORM>
+	</div>
+	
+	<div id="Tools">
+		<table id = "t5" ><tbody align="center"> </tbody> </table>
+		<table border="1" id = "t1" ><tbody align="center"> </tbody> </table> 
+		<table id = "t4" ><tbody align="center"> </tbody> </table>
+		<table border="1" id = "t2" ><tbody align="center"> </tbody> </table>
+		<table id = "t3" ><tbody align="center"> </tbody> </table>
+	</div>
+	
+	<div id="OUTZONE">
+		<div id ="outmess"> Открытый текст </div>
+		<FORM NAME="Final">
+			<textarea NAME="OutputText" ID="OutputText" readonly readonly> здесь будет ваш результат </textarea>
+			<!-- Кнопки готовности и сброса -->
+			<INPUT TYPE="button" VALUE="Готово" onClick="getResult();">
+		</FORM>
+	</div>
+</body>
+</html>

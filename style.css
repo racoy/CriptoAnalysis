@@ -1,0 +1,152 @@
+#INZONE	{
+	position:absolute;
+	width:40%;
+	float:left;
+	height:100%;
+}
+
+#Tools	{
+	position:absolute;
+	left:40%;
+	width:20%;
+}
+#OUTZONE	{
+	position:absolute;
+	left:55%;
+	width:45%;
+	background-color:rgba(198, 245, 255, 0.33);
+	margin-top: -10px;
+	height:100%;
+}
+
+#inmess {
+	padding:5px;
+	margin-left: 10%;
+	margin-right: 25%;
+	margin-bottom: 3%;
+	border-radius: 20px;
+	background-color:rgba(198, 245, 255, 0.33);
+	text-align:center;
+	Font-Family: Roboto;
+	Font-Style: Regular;
+	Font-Size: 24px;
+	Line-Height: 28px;
+	color:rgba(0, 0, 0, 0.69);
+}
+
+#samplemess {
+	padding:5px;
+	margin-left: 10%;
+	margin-right: 25%;
+	margin-bottom: 3%;
+	border-radius: 20px;
+	background-color:rgba(255, 188, 244, 0.36);
+	text-align:center;
+	Font-Family: Roboto;
+	Font-Style: Regular;
+	Font-Size: 24px;
+	Line-Height: 28px;
+	color:rgba(0, 0, 0, 0.69);
+}
+
+#outmess {
+	padding:5px;
+	margin-left: 21%;
+	margin-right: 25%;
+	margin-bottom: 3%;
+	margin-top: 10px;
+	border-radius: 20px;
+	background-color:white;
+	text-align:center;
+	Font-Family: Roboto;
+	Font-Style: Regular;
+	Font-Size: 24px;
+	Line-Height: 28px;
+	color:rgba(0, 0, 0, 0.69);
+}
+
+#t1	{
+	float:left;
+	border:hidden;
+}
+
+.td1 {
+	border-color:rgba(198, 245, 255, 1);
+	background-color:rgba(198, 245, 255, 0.33);
+}
+
+#t2	{
+	float:left;
+	border-color:rgba(255, 188, 244, 1);
+	border:hidden;
+}
+
+.td2 {
+	border-color:rgba(255, 188, 244, 1);
+	background-color:rgba(255, 188, 244, 0.36);
+}
+
+#t3 {
+	border:hidden;
+	background-color:white;
+}
+#t4 {
+	float:left;
+}
+
+#t5 {
+	float:left;
+}
+
+
+
+#OutputText {
+	margin-left: 11%;
+	width:80%;
+	height:80%;
+	background-color:white;
+}
+
+#InputText {
+	width:80%;
+	height:40%;
+	background-color:white;
+}
+
+#SampleText {
+	width:80%;
+	height:35%;
+	background-color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
